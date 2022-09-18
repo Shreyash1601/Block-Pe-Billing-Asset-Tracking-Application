@@ -24,10 +24,21 @@ at the time of purchase. Also the shopkeeper can verify the details of the produ
 3.) It would enable Xiaomi to keep a track of it's products individually, the life cycle phases undergone, servicing trends, customer habits etc.
 This would help Xiaomi to make better business policies and improve upon their business strategies.
 
-# Installation
+# Installation( Please refer PPT for video demonstration of installation process)
 
 1.) Install NodeJS on your system and clone the repository on your local system.
 
-2.) _STARTING FRONT-END ..._
-Navigate to block-pe front-end and type _npm install_ to install dependencies of front end
+2.) _STARTING FRONT-END ..._ 
+
+Navigate to block-pe front-end and type _npm install_ to install dependencies of front end 
+
 Navigate to front-end folder by writing _cd block-pe front-end_
+
+Type _npm start_ to start the front-end server
+
+3.) _STARTING IPFS SEVER..._
+
+Navigate to IPFS server folder by writing _cd Block Pe IPFS_ and type _npm install_ to install the dependencies.
+
+After installing the dependencies, run the following command _nodemon ipfs1.js_ .
+
