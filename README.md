@@ -26,4 +26,8 @@ This would help Xiaomi to make better business policies and improve upon their b
 
 # Installation
 
-1.) Install NodeJS on your system and clone the repositoryh
+1.) Install NodeJS on your system and clone the repository on your local system.
+
+2.) _STARTING FRONT-END ..._
+Navigate to block-pe front-end and type _npm install_ to install dependencies of front end
+Navigate to front-end folder by writing _cd block-pe front-end_
