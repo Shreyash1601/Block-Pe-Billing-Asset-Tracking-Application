@@ -24,6 +24,12 @@ at the time of purchase. Also the shopkeeper can verify the details of the produ
 3.) It would enable Xiaomi to keep a track of it's products individually, the life cycle phases undergone, servicing trends, customer habits etc.
 This would help Xiaomi to make better business policies and improve upon their business strategies.
 
+# Direct Access using URL:
+
+We can access a limited number of features through the _Heroku_ provided URL such as SignUp/Login, Verifying the details using Hash Key, Fetching Transaction history and predicting resell value of an Old Xiaomin Product.
+
+But in order to generate bill, store details on MongoDB server, send bills to Whatsapp and Email, we need to install the application on our local system. The details are mentioned below.
+
 # Installation( Please refer PPT for video demonstration of installation process)
 
 1.) Install NodeJS on your system and clone the repository on your local system.
@@ -31,6 +37,7 @@ This would help Xiaomi to make better business policies and improve upon their b
 2.) _STARTING FRONT-END ..._ 
 
 Navigate to block-pe front-end and type _npm install_ to install dependencies of front end 
+
 
 Navigate to front-end folder by writing _cd block-pe front-end_
 
@@ -41,4 +48,3 @@ Type _npm start_ to start the front-end server
 Navigate to IPFS server folder by writing _cd Block Pe IPFS_ and type _npm install_ to install the dependencies.
 
 After installing the dependencies, run the following command _nodemon ipfs1.js_ .
-
